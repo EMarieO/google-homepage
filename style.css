@@ -1,0 +1,37 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+.logo {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.search-bar i {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 9px;
+    color:rgb(87, 85, 85)
+}
+
+.search {
+     padding: 10px;
+     min-width: 40px;
+}
+
+.searchbar {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    text-align: left;
+    border-radius: 20px;
+    font-size: 18px;
+    
+    
+}
