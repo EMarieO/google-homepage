@@ -3,19 +3,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar ul {
+.navbar {
     position: fixed;
     top: 0;
-    width: 95%;
-    text-align: right;
-    
+    width: 98%;
+    font-size: 14px;
 }
 
+.rightside {
+    float: right;
+    margin-right: 15px; 
+
+}
+
+.leftside {
+    float: left;
+    margin-left: -40px;
+}
 
 li {
-padding: 15px;
-list-style-type: none;
-display: inline;
+    padding: 15px;
+    list-style-type: none;
+    display: inline;
 
 }
 
@@ -35,7 +44,11 @@ display: inline;
     display: flex;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 2px 2px 10px 2px rgb(153, 153, 153);
+    border: 1px solid #e8eaeb;
+}
+
+.search-bar:hover {
+    box-shadow: 2px 2px 10px 2px rgb(168, 168, 168);
 }
 
 .searchbar {
@@ -47,4 +60,32 @@ display: inline;
 
 .searchbaricon {
     color:rgb(88, 88, 88)
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons button {
+    padding: 15px 25px;
+    border: 0;
+    margin: 10px;
+    background-color: #F1F3F4;
+}
+
+.footernav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F1F3F4;
+    font-size: 14px;
+    color: #5a5959
+}
+
+.centernav {
+    text-align: center;
+    display: inline-block;
+    margin-left: 450px;
 }
